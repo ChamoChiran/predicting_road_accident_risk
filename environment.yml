@@ -14,6 +14,8 @@ dependencies:
   - numpy
   - pandas
   - scikit-learn
+  - joblib
+  - plotly
   - ruff
   - pytest
   - seaborn
