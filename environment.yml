@@ -1,0 +1,33 @@
+name: predicting_road_accident_risk
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - ruff
+  - pytest
+  - seaborn
+  - statsmodels
+  - scipy
+  - pytorch
+  - xgboost
+  - lightgbm
+  - catboost
+  - shap
+  - pytorch-tabular
+  - streamlit
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .
+    - tabm

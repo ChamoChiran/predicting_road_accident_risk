@@ -1,0 +1,33 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "road_accident_risk"
+version = "0.0.1"
+description = "Playground Series - Season 5, Episode 10 - Predicting Road Accident Risk"
+authors = [
+  { name = "chamodh" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=3.10.0"
+
+[project.scripts]
+rar = "road_accident_risk.cli:app"
+
+[tool.ruff]
+line-length = 99
+src = ["road_accident_risk"]
+include = ["pyproject.toml", "road_accident_risk/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["road_accident_risk"]
+force-sort-within-sections = true
