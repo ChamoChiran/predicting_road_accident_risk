@@ -16,4 +16,5 @@ loguru
 typer
 python-dotenv
 tabm
-
+matplotlib
+plotly
