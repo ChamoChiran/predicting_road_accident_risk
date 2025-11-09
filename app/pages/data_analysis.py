@@ -21,7 +21,7 @@ All plots are interactive and use Streamlit’s native charting style.
 # ─────────────────────────────
 @st.cache_data
 def load_data(sample_size=10000):
-    path = "../data/processed/train.csv"
+    path = "../app/data/df.csv"
     try:
         # Read the header to get column names
         header = pd.read_csv(path, nrows=0).columns

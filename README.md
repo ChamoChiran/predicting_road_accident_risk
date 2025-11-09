@@ -1,3 +1,14 @@
+---
+title: Road Accident Risk Prediction
+emoji: 🚦
+colorFrom: red
+colorTo: orange
+sdk: docker
+pinned: false
+license: mit
+app_port: 8501
+---
+
 # Road Accident Risk
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
