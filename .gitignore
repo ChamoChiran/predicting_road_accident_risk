@@ -8,6 +8,15 @@
 *.swp
 *.swo
 
+# Large model files (>10MB)
+models/LGBM/oof_preds_lgbm.csv
+models/TabM/oof_preds_tabm.csv
+models/Tabular/callbacks.sav
+models/Tabular/datamodule.sav
+models/Tabular/oof_preds_tabular.csv
+models/Tabular/tabular_model.pkl
+models/XGB/oof_preds_xgb.csv
+
 ## https://github.com/github/gitignore/blob/e8554d85bf62e38d6db966a50d2064ac025fd82a/Python.gitignore
 
 # Byte-compiled / optimized / DLL files
@@ -93,12 +102,12 @@ target/
 # IDE
 .idea/
 
-# Models
-models/
-*.pkl
-*.pt
-*.ckpt
-*.sav
+## Models
+#models/
+#*.pkl
+#*.pt
+#*.ckpt
+#*.sav
 
 # Data
 data/processed/
